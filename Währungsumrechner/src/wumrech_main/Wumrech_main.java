@@ -1,11 +1,24 @@
 package wumrech_main;
+import java.util.Scanner;
+
 
 public class Wumrech_main {
 	public static void main(String[] args) {
-		char dollarSymbol = '$', euroSymbol = '€';
-	    System.out.println(dollarSymbol);
-	    System.out.println(euroSymbol);
-		System.out.println("check");
+		String euroSymbol = " Euro";
+
+		System.out.println("Gib den umzurechnenden Betrag in Euro an: ");
+
+		
+
+		Scanner gegebenerBetrag = new Scanner(System.in);
+		System.out.println("Dein angegebener Betrag sind: " + gegebenerBetrag.nextLine() + euroSymbol);
+
+		
+		
+
+		
+		
+		
 		
 	}
 
