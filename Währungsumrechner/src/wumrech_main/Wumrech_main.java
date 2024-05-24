@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Wumrech_main {
 	public static void main(String[] args) {
 		String euroSymbol = " Euro";
+		String userInput = "";
 
 		System.out.println("Gib den umzurechnenden Betrag in Euro an: ");
 
@@ -15,6 +16,8 @@ public class Wumrech_main {
         
 		Scanner userJaNein = new Scanner(System.in);
 		System.out.println("Deine Angabe ist: " + userJaNein.nextLine());
+		userInput = userJaNein.nextLine();
+		//if(== "J")
 		
 		
 
