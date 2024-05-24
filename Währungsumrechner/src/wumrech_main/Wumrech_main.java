@@ -11,8 +11,10 @@ public class Wumrech_main {
 		
 
 		Scanner gegebenerBetrag = new Scanner(System.in);
-		System.out.println("Dein angegebener Betrag sind: " + gegebenerBetrag.nextLine() + euroSymbol);
-
+		System.out.println("Dein angegebener Betrag sind: " + gegebenerBetrag.nextLine() + euroSymbol + " Ist das korrekt? J/N?");
+        
+		Scanner userJaNein = new Scanner(System.in);
+		System.out.println("Deine Angabe ist: " + userJaNein.nextLine());
 		
 		
 
